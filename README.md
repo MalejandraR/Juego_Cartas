@@ -1,18 +1,29 @@
-## Getting Started
+## Juego de Cartas – Técnicas de Programación (Java)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Proyecto didáctico desarrollado en clase. Se practica arreglos, enum y lógica básica.
 
-## Folder Structure
+## Funcionalidades
 
-The workspace contains two folders by default, where:
+- Reparto aleatorio de cartas a dos jugadores.
+- **Grupos por mismo valor** (pares, ternas, cuartas…).
+- **Escaleras por misma pinta** (valores consecutivos dentro del mismo palo).
+- **Puntaje** con cartas **sobrantes** (no usadas en grupos/escaleras).
+- Reporte textual en pantalla.
+- 
+## Estructura
+src/
+├─ imagenes/ # recursos (png/jpg de cartas, íconos, etc.)
+├─ App.java # main (entrada del programa)
+├─ FrmJuego.java # JFrame principal (UI)
+├─ Jugador.java # lógica y análisis
+├─ Carta.java # modelo de carta
+├─ Pinta.java # enumeración de pinta
+└─ NombreCarta.java # enumeración de valores
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Ejecución (desde "App")
+### VS Code
+Abrir el proyecto y **ejecutar "App.java"**
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Punto realizado por:
+- MARCELA PATRICIA GOMEZ ROJAS
+- MARÍA ALEJANDRA RAMIREZ GRAJALES 
