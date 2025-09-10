@@ -12,13 +12,13 @@ Proyecto didáctico desarrollado en clase. Se practica arreglos, enum y lógica 
 - 
 ## Estructura
 src/
-├─ imagenes/ # recursos (png/jpg de cartas, íconos, etc.)
-├─ App.java # main (entrada del programa)
-├─ FrmJuego.java # JFrame principal (UI)
-├─ Jugador.java # lógica y análisis
-├─ Carta.java # modelo de carta
-├─ Pinta.java # enumeración de pinta
-└─ NombreCarta.java # enumeración de valores
+- imagenes/ # recursos (png/jpg de cartas, íconos, etc.)
+- App.java # main (entrada del programa)
+- FrmJuego.java # JFrame principal (UI)
+- Jugador.java # lógica y análisis
+- Carta.java # modelo de carta
+- Pinta.java # enumeración de pinta
+- NombreCarta.java # enumeración de valores
 
 ## Ejecución (desde "App")
 ### VS Code
