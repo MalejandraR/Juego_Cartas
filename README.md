@@ -21,7 +21,7 @@ src/
 - NombreCarta.java # enumeración de valores
 
 ## Ejecución (desde "App")
-### VS Code
+### VSC
 Abrir el proyecto y **ejecutar "App.java"**
 
 ## Punto realizado por:
